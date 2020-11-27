@@ -1,0 +1,16 @@
+###
+//Testando o método LISTAR
+GET http://localhost:1234/medico/listar
+
+
+//Testando o CADASTRAR
+POST http://localhost:1234/medico/cadastrar
+content-type: application/json
+
+{
+    "nome": "Pedro",
+    "crm": "010101232",
+    "especialidade": "Neurologista"
+}
+
+###
